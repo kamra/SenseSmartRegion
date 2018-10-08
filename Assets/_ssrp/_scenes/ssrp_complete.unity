@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -4758,6 +4758,11 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 876ecc20f2e15044696d8d88b580ec59, type: 2}
   m_IsPrefabParent: 0
+--- !u!4 &864844378 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4342511738887014, guid: 876ecc20f2e15044696d8d88b580ec59,
+    type: 2}
+  m_PrefabInternal: {fileID: 864844377}
 --- !u!1 &867697003
 GameObject:
   m_ObjectHideFlags: 0
@@ -5294,11 +5299,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 968277104}
---- !u!4 &968743681 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 4750865966167006, guid: 876ecc20f2e15044696d8d88b580ec59,
-    type: 2}
-  m_PrefabInternal: {fileID: 1045128088}
 --- !u!1 &976938090
 GameObject:
   m_ObjectHideFlags: 0
@@ -5944,6 +5944,11 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 876ecc20f2e15044696d8d88b580ec59, type: 2}
   m_IsPrefabParent: 0
+--- !u!4 &1045128089 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4342511738887014, guid: 876ecc20f2e15044696d8d88b580ec59,
+    type: 2}
+  m_PrefabInternal: {fileID: 1045128088}
 --- !u!1 &1063507784
 GameObject:
   m_ObjectHideFlags: 0
@@ -6682,7 +6687,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 867697004}
-  - {fileID: 1854663465}
+  - {fileID: 864844378}
   - {fileID: 149287409}
   - {fileID: 1846780122}
   m_Father: {fileID: 1763058697}
@@ -8704,7 +8709,7 @@ Transform:
   m_LocalScale: {x: 0.12065, y: 0.12065, z: 0.12065}
   m_Children:
   - {fileID: 1434204440}
-  - {fileID: 968743681}
+  - {fileID: 1045128089}
   - {fileID: 1956104784}
   - {fileID: 1067290111}
   - {fileID: 1179326342}
@@ -10088,11 +10093,6 @@ CanvasRenderer:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1850538336}
---- !u!4 &1854663465 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 4750865966167006, guid: 876ecc20f2e15044696d8d88b580ec59,
-    type: 2}
-  m_PrefabInternal: {fileID: 864844377}
 --- !u!1 &1869650213
 GameObject:
   m_ObjectHideFlags: 0
@@ -10424,6 +10424,10 @@ Prefab:
       propertyPath: augmentationObject
       value: 
       objectReference: {fileID: 1602561699}
+    - target: {fileID: 1330727448994654, guid: 2dc193a7c2e9b104687360d32ea9444c, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2dc193a7c2e9b104687360d32ea9444c, type: 2}
   m_IsPrefabParent: 0
