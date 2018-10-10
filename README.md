@@ -1,4 +1,4 @@
-# SenseSmartRegion
+# HoloLens integration with the SenseSmartRegion platform
 
 Implemented in Unity 2017.4.12f1 (64bit)
 
